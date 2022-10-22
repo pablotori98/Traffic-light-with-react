@@ -10,3 +10,75 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.semaforo{
+    background-color: black;
+    width: 200px;
+    height: 700px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  
+}
+
+
+.fondoVerde{
+
+    margin: 20px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+.fondoAmarillo{
+    margin: 20px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+
+}
+
+.fondoRojo{
+    margin: 20px auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+
+.centerButton{
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    margin: 20px;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+}
+
+.btnGreen:focus{
+    background-color: green;
+    color: white;
+    padding: 15px;
+
+}
+
+.btnYellow:focus{
+    background-color: yellow;
+    padding: 15px;
+
+}
+.btnRed:focus{
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
